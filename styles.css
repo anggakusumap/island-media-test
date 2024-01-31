@@ -1,0 +1,52 @@
+.day {
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    margin: 5px;
+}
+
+.green {
+    background-color: #027D27;
+    color: white;
+}
+
+.blue {
+    background-color: #0094F8;
+    color: white;
+}
+
+#selectedDayValue {
+    color: #0094F8;
+}
+
+.selected {
+    box-shadow: 0 0 10px white;
+    outline: 2px solid white;
+}
+
+.selectedDay {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.todayValue {
+    color: #027D27;
+}
+
+.bg-primary {
+    background: #EDEDED;
+}
+
+.bg-secondary {
+    background: #CBCBCA;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
